@@ -1,0 +1,148 @@
+
+* {
+  font-family: chatfont;
+  font-size: 1.40vh;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+	font-family: Frank;
+	src: url('./franklin.ttf');
+}
+
+@font-face {
+  font-family: chatfont;
+  src: url("https://cdn.discordapp.com/attachments/1034544046561046628/1034552412406562906/Montserrat-Medium.ttf");
+}
+
+#app {
+  font-family: chatfont;
+  color: white;
+}
+
+.chat-window {
+  position: absolute;
+  top: 3.5%;
+  left: 1.5%;
+  width: 22%;
+  height: 15%;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.0);
+  text-shadow: 1px 1px black;
+  -webkit-animation-duration: 2s;
+}
+
+.messagebox{
+  padding: 0px;
+  margin-bottom: 0px;
+  width: fit-content;
+}
+
+.message {
+  margin-left: 5px;
+  color: white;
+
+}
+
+.chat-messages {
+  font-family: chatfont;
+  /* font-weight: bold; */
+  position: relative;
+  height: 95%;
+  font-size: 1.40vh;
+  margin: 0.2%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.chat-input {
+  font-family: chatfont;
+  /* font-weight: bold; */
+  font-size: 1.40vh;
+  position: absolute;
+  border-radius: 5px; 
+  top: 30%;
+  left: 0.8%;
+  width: 38%;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.prefix {
+  font-family: chatfont;
+  font-weight: bold;
+  font-size: 1.6vh;
+  position: absolute;
+  margin-top: 0.7%;
+  margin-left: 0.75%;
+  left: 0.208%;
+}
+
+textarea {
+  font-family: chatfont;
+  font-size: 1.40vh;
+  box-sizing: border-box;
+  padding: 1%;
+  padding-left: 3.5%;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 0.5vh;
+  background: rgba(0, 0, 0, 0.616);
+  width: 80%;
+  border-width: 0;
+  height: 21.04%;
+  resize: none;
+}
+
+.nameinfo {
+  font-family: chatfont;
+  font-size: 1.40vh;
+  padding: 2px;
+  padding-left: 3vh;
+  border-radius: 0.5vh;
+  color: white;
+  background: linear-gradient(90deg, rgba(231,108,41,1) 3%, rgba(249,24,103,1) 100%);
+  box-shadow: 0 0 1vh rgba(249,24,103,1);
+  width: 3.8vh;
+}
+
+#speed-icon{
+  position: absolute;
+  color: white;
+  font-size: 1.30vh;
+  margin-top: 0.7%;
+  left: 1%;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.multiline {
+  font-family: chatfont;
+  white-space: pre-line;
+}
+
+.suggestions {
+  font-family: chatfont;
+  list-style-type: none;
+  padding: 10px;
+  margin-top : .2vw;
+  font-size: 1.40vh;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px 1px #000000;
+  overflow: hidden;
+  width: 80%;
+}
+
+.suggestion {
+  margin-bottom: 0.5%;
+}
+
+.hidden {
+  display: none;
+}

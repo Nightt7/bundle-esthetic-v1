@@ -4,6 +4,8 @@ FiveM Esthetic Bundle by Night#8899 (v1 Neón) - Para descargar un script indivi
 | Discord: https://discord.gg/wfPKxjGgTN
 
 ![image](https://user-images.githubusercontent.com/101990128/201919451-384ffda0-76cc-4b5a-8f61-f9a0a3fad1d1.png)
+![image](https://user-images.githubusercontent.com/101990128/202681235-140e3d65-8f87-4c9e-88ed-0c578884d146.png)
+
 
 - esx_menu_default bundle 1
 
